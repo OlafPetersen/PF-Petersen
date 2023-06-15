@@ -5,3 +5,9 @@ $violeta: #9C2FD0;
 $naranja: #F49A18;
 $violeta-claro: rgba(156, 47, 208, 26%);
 
+@mixin seccion1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 300px;
+}

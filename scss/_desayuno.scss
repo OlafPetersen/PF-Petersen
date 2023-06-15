@@ -1,10 +1,7 @@
 #seccion1desayuno {
     color: $blanco;
     background-image: url(../img/Diseño\ sin\ título\ \(5\)\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    height: 300px;
+    @include seccion1;
 }
 
 .seccion2desy {

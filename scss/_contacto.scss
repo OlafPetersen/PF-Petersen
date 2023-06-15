@@ -1,10 +1,7 @@
 #seccion1contact {
     color: $blanco;
     background-image: url(../img/contacto\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    height: 300px;
+    @include seccion1;
 }
 .seccion2cont {
     text-align: center;

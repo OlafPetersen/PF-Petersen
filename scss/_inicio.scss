@@ -4,13 +4,10 @@
         rgba(156, 47, 208, 50%),
         rgba(156, 47, 208, 50%)
     ), url(../img/Diseño\ sin\ título\ \(3\)\ 2\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    text-align: center;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    @include seccion1;
 }
 
 .seccion2home {
